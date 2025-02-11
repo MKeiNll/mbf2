@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     public Transform Camera;
 
     private float Speed = 55;
-    private float JumpPower = 5f;
+    private float JumpPower = 6f;
     private float MaxAngularVelocity = 100;
 
     private float reducedSpeed;
