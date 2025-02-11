@@ -8,9 +8,9 @@ public class Player : MonoBehaviour
 {
     public Transform Camera;
 
-    private float Speed = 50;
-    private float JumpPower = 4.5f;
-    private float MaxAngularVelocity = 1000;
+    private float Speed = 55;
+    private float JumpPower = 5f;
+    private float MaxAngularVelocity = 100;
 
     private float reducedSpeed;
     private float normalSpeed;

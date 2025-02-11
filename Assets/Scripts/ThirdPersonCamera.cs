@@ -12,7 +12,7 @@ public class ThirdPersonCamera : MonoBehaviour
 
     public float SensetivityX;
     public float SensetivityY;
-    public float ScrollSensetivity;
+    private float ScrollSensetivity = 500;
 
     public float StartVerticalAngle;
     public float VerticalAngleMin;
